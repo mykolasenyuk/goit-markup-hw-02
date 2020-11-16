@@ -2,6 +2,7 @@
 /* secction */
 .section{
     color: var(--text-color);
+    
 }
 /* filters nav */
 .filter-nav{
@@ -30,9 +31,12 @@
 
 /* project list */
 
-.project-list {
+.project-list .list {
     list-style: none;
     color: var(--text-color);
+    
+    
+    
     }
 .title{
     color: var(--custom-text-color);
@@ -40,10 +44,14 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-decoration: none;
+    
 }
 .project-list .type{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.88;
-    
-}
+    }
+    .a{
+        text-decoration: none;
+    }

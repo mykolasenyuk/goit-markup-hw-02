@@ -30,6 +30,7 @@
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 .logo-nav{
     color: #000000;
@@ -46,6 +47,7 @@
      font-size: 14px;
      line-height: 1.14;
      letter-spacing: 0.02em;
+     text-decoration: none;
     
 }
 .site-nav .link:hover, 
@@ -62,6 +64,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
 }
 
 /* footer */
@@ -71,11 +74,15 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
+    
 }
 .address-link{
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 .address-link:hover,
 .address-link:focus{
     color: var(--accent-color);
+    
 }
