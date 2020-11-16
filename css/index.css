@@ -2,7 +2,7 @@
 /* hero */
 
 .hero-title{
-
+    background: #2F303A;
 
     color: var(--primary-white-color);
     font-weight: 900;
