@@ -1,0 +1,82 @@
+
+/* hero */
+
+.hero-title{
+
+
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase
+}
+
+/* sections */
+
+.section-title{
+    
+    color: var(--custom-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* feature list */
+
+.feature-list {
+    list-style: none;
+    color: var(--text-color);
+    }
+
+    .feature-list .text{
+        font-size: 14px;
+        line-height: 1.71;
+    }
+.title{
+    color: var(--custom-text-color);font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.image-list{
+    list-style: none;
+}
+
+/* team */
+
+.team-list{
+    list-style: none;
+    color: var(--text-color);
+}
+.name{
+    color: var(--custom-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team-list .position{
+    font-size: 16px;
+    line-height: 1.19;}
+
+/* buttons */
+
+.button{
+    color: var(--custom-text-color);
+    background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em
+}
+.button.primary{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+}
+

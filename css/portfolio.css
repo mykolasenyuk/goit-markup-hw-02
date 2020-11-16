@@ -1,0 +1,49 @@
+
+/* secction */
+.section{
+    color: var(--text-color);
+}
+/* filters nav */
+.filter-nav{
+    list-style: none;
+}
+/* buttons */
+.button{
+    color: var(--custom-text-color);
+    background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+.button:hover,
+.button:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color) ;
+}
+
+.filter-nav .button.current{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* project list */
+
+.project-list {
+    list-style: none;
+    color: var(--text-color);
+    }
+.title{
+    color: var(--custom-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-list .type{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    
+}
