@@ -26,7 +26,7 @@ a{text-decoration: none;
     list-style: none;
 }
 
-/* logo */
+/* ===logo=== */
 .logo{
     color: var(--accent-color);
     font-family: Raleway;
@@ -41,21 +41,22 @@ a{text-decoration: none;
 .logo-footer{
     color: var(--primary-white-color);
 }
+/* === end logo=== */
 
-/* site nav */
+/* ===site nav=== */
 
-.site-nav .link {
+.site-nav .site-nav-link {
     color: var(--custom-text-color);
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
      letter-spacing: 0.02em;
     }
-.site-nav .link:hover, 
-.site-nav .link:focus{
+.site-nav-link:hover, 
+.site-nav-link:focus{
     color: var(--accent-color);
 }
-.site-nav .link.current{
+ .site-nav-link.current{
     color: var(--accent-color)
 }
 .site-nav address{
@@ -65,13 +66,17 @@ a{text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.address{
+    font-style: normal;
+}
+/* ===end site nav=== */
 
-/* footer */
+/* ===footer=== */
 
-.address-list{
+.footer-address{
     background-color: #2F303A;
 }
-.address{
+.address-list{
     color: var(--primary-white-color);
     font-style: normal;
     font-weight: normal;
@@ -79,11 +84,12 @@ a{text-decoration: none;
     line-height: 1.71;
       
 }
-.address-link{
+.address-list-link{
     color: rgba(255, 255, 255, 0.6);
 
 }
-.address-link:hover,
-.address-link:focus{
+.address-list-link:hover,
+.address-list-link:focus{
     color: var(--accent-color);
 }
+/* ===end footer=== */

@@ -1,14 +1,17 @@
 
-/* secction */
+/* ===sections=== */
 .section{
-    color: var(--text-color);
-    
+    color: var(--text-color);   
 }
-/* filters nav */
+/* ===end sections=== */
+
+/* ===filters nav=== */
 .filter-nav{
     list-style: none;
 }
-/* buttons */
+/* ===end filters nav=== */
+
+/* ===buttons=== */
 .button{
     color: var(--custom-text-color);
     background-color: #F5F4FA;
@@ -28,8 +31,9 @@
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+/* ===end buttons=== */
 
-/* project list */
+/* ===project list=== */
 
 .project-list .list {
     list-style: none;
@@ -53,3 +57,4 @@
     font-size: 16px;
     line-height: 1.88;
     }
+    /* ===end project list=== */
